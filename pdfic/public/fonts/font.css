@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Aeonik';
+    src: url('../public/fonts/Aeonik/AeonikTRIAL-Bold.otf');
+  }
+  
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../../../public/fonts/Poppins/Poppins-Bold.ttf');
+}

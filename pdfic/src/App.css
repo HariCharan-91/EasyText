@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('../public/fonts/Aeonik/AeonikTRIAL-Bold.otf');
+}
+
+body {
+  background: linear-gradient(to right, #010916, #101f37, #010916);
+  font-family: 'Aeonik';
+  overflow-x: hidden;
+  width: 100%;
+}
+
+
+:root
+{
+  --navbar--padding : 100px;
+}
