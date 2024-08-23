@@ -36,7 +36,7 @@ const uploadPDF = async (req, res) => {
             })
         }
         
-        pdf_url = `https://easytext.onrender.comapi/pdf/${req.uploadedFilename}`
+        pdf_url = `https://easytext.onrender.com/api/pdf/${req.uploadedFilename}`
 
         
 

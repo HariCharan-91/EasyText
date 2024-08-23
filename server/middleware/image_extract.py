@@ -47,7 +47,7 @@ def main():
                         image_name = f"page_{page_number}_annot_{random.randint(1, 100)}.png"
                         output_path = f"{output_folder}/{image_name}"
                         pil_image.save(output_path)
-                        image_url = f"https://easytext.onrender.comapi/image/{image_name}"
+                        image_url = f"https://easytext.onrender.com/api/image/{image_name}"
                         
                          # Create a dictionary with image path and annotation type
                         annotation_info = {
