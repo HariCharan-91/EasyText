@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../public/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+body {
+  background: linear-gradient(to right, #010916, #101f37, #010916);
+  font-family: 'poppins';
+  overflow-x: hidden;
+  width: 100%;
+}
+
+
+
+
+:root
+{
+  --navbar--padding : 100px;
+}

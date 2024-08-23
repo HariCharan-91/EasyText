@@ -1,0 +1,71 @@
+.pdfcontainer
+{
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+    align-items: center;
+    height: auto;
+}
+
+.upload-container
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+}
+
+.inputidclass
+{
+    background: #183153;
+    margin: 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    clip: rect(0, 0, 0, 0);
+    display: inline-block;
+}
+
+.upload-container input::file-selector-button {
+    color: white;
+    padding: 0.5em;
+    border: thin solid grey;
+    background: #8557ee;
+    border-radius: 3px;
+
+  }
+.inputidclass + label {
+  
+    border: none; 
+    cursor: pointer; 
+    padding: 5px;
+  }
+
+
+.pages-container
+{
+    width: 80vw;
+    padding: 20px;
+    overflow-x: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}  
+
+  @media(max-width:540px)
+  {
+    .upload-container input::file-selector-button {
+        width: 50px;
+        font-size: smaller;
+
+      }
+    .inputidclass{
+
+        width: 200px;
+        font-size: 15px;
+    }
+  }

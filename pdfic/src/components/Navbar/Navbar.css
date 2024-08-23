@@ -1,0 +1,180 @@
+
+.Navabarcont
+{
+   position: fixed;
+   top: 0;
+   width: 100vw;
+   background: linear-gradient(to right, #010916, #101f37, #010916);
+   opacity: 80%;
+   backdrop-filter: blur(10px);
+   z-index: 1000;
+   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
+}
+
+.navitems
+{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navitems ul{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+    align-items: center;
+    left: 0;
+   
+  }
+  
+.navlinks {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 100;
+  }
+
+  .navitems ul li {
+    list-style: none;
+  
+  }
+   
+  .imagelogo {
+    height: 60px;
+    margin-left: 15px;
+  }
+
+.navitems ul {
+    display: flex;
+    align-items: center;
+}
+
+
+.navitems ul li {
+   
+    margin: 0px 30px;
+}
+  
+  .selected {
+    color: #915eff;
+  
+  }
+  
+  .menuimage
+  {
+    height: 50px;
+    display: none;
+    
+  }
+
+ 
+ 
+  
+  
+  
+  @media (max-width: 576px) {
+    
+  
+    .imagelogo
+    {
+      height: 40px;
+    }
+   
+    .menuimage
+    {
+      display: block;
+      height: 40px;
+      margin-right: 20px;
+    }
+    
+    .navlinks{
+      display: block;
+    
+    }
+    .imagelogo
+    {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .navitems ul
+    {
+      background: linear-gradient(to right, #010916, #101f37, #010916);
+      position: absolute;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      top: 60px;
+      gap: 20px;
+      height: auto;
+      width: 100%;
+      transition: height 0.5s ease;
+    }
+
+    
+    
+    
+  }
+  
+
+  @media (min-width: 577px) and (max-width: 768px) {
+    
+    .imagelogo
+    {
+      height: 40px;
+    }
+   
+    .imagelogo
+    {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .menuimage
+    {
+      display: block;
+      height: 45px;
+      margin-right: 20px;
+    }
+
+    .navitems ul
+    {
+      background: linear-gradient(to right, #010916, #101f37, #010916);
+      position: absolute;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      top: 60px;
+      gap: 20px;
+      height: auto;
+      width: 100%;
+      transition: height 0.5s ease;
+    }
+  }
+  
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+  
+    
+    .imagelogo {
+      height: 40px;
+      margin-left: 15px;
+      transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+    .navlinks
+    {
+      font-size: 15px;
+      transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+  }
+  
+  
+  @media (min-width: 993px) and (max-width: 1200px) {
+    
+  }
+  
+  

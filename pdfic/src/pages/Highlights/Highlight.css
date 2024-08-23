@@ -1,0 +1,258 @@
+.toppadding {
+  padding-top: var(--navbar--padding);
+}
+
+.header-highlight {
+  color: #915eff;
+  margin-left: 10px;
+}
+
+.images-header {
+  color: rgb(155, 153, 153);
+  font-size: 60px;
+  font-family: 'poppins';
+  margin-bottom: 13px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonsdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.upload-button {
+  margin-top: 30px;
+  margin-left: 13px;
+  margin-right: 13px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #183153;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+}
+
+.upload-button:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+ 
+  background: #A8E0FF;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+.upload-button:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.upload-button span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+.upload-button:hover span {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+
+.upload-button-selected {
+  background-color: #915eff;
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+  z-index: 1;
+}
+
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.Highlightdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pointsdiv {
+  margin-top: 30px;
+  padding: 40px;
+  width: 90em;
+  background-color: #183153;
+  border-radius: 10px;
+  box-shadow: inset -50px -50px 100px #0a1421,
+    inset 50px 50px 100px #264e85;
+}
+
+.highlighttext {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'poppinsLight';
+  src: url('../../../public/fonts/Poppins/Poppins-Light.ttf');
+}
+
+.hitext {
+  font-size: 20px;
+  color: rgb(197, 194, 194);
+  font-family: 'poppinsLight';
+  font-weight: 100;
+}
+
+.nothing {
+  color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+:root
+{
+  --highlight--width : 80%;
+  --highlight--margin : 20px;
+}
+
+
+
+@media (max-width: 575.98px) {
+
+  .images-header {
+    font-size: calc(var(--hero--font-size) - 30px);
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttonsdiv {
+    flex-wrap: wrap;
+  }
+
+  .upload-button span {
+    font-size: 0.5rem;
+  }
+
+  .pointsdiv {
+    padding: 25px;
+    text-align: left;
+    width: var(--highlight--width);
+    margin: var(--highlight--margin);
+
+  }
+
+ 
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .images-header {
+    font-size: calc(var(--hero--font-size) - 20px);
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .upload-button span {
+    font-size: 0.8rem;
+    padding: 18px;
+  }
+
+  .pointsdiv {
+    width: var(--highlight--width);
+    margin: var(--highlight--margin);
+
+  }
+
+  .buttonsdiv {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .images-header {
+    font-size: calc(var(--hero--font-size) - 10px);
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .upload-button span {
+    font-size: 0.9rem;
+  }
+
+  .pointsdiv {
+    width: var(--highlight--width);
+    margin: var(--highlight--margin);
+
+  }
+
+  .buttonsdiv {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .upload-button span {
+    font-size: 1.0rem;
+  }
+
+  .pointsdiv {
+    width: var(--highlight--width);
+    margin: var(--highlight--margin);
+  }
+
+  .buttonsdiv {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1201px) {
+
+
+  .pointsdiv {
+    width: var(--highlight--width);
+    margin: var(--highlight--margin);
+  }
+
+  .buttonsdiv {
+    flex-wrap: wrap;
+  }
+}
+

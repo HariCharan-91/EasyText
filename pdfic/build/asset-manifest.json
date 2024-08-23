@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.603d9204.css",
+    "main.js": "/static/js/main.08165f6e.js",
+    "static/js/453.a829d25e.chunk.js": "/static/js/453.a829d25e.chunk.js",
+    "static/media/pdf.worker.min.js": "/static/media/pdf.worker.min.312ce52bf861cd137c44.js",
+    "static/media/Deadline-rafiki.png": "/static/media/Deadline-rafiki.6538dfdf59ca3a69787a.png",
+    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/pdf1.pdf": "/static/media/pdf1.e711d3085ef48e510016.pdf",
+    "static/media/logo-no-background.png": "/static/media/logo-no-background.4db8c95deae0b26e43ad.png",
+    "index.html": "/index.html",
+    "main.603d9204.css.map": "/static/css/main.603d9204.css.map",
+    "main.08165f6e.js.map": "/static/js/main.08165f6e.js.map",
+    "453.a829d25e.chunk.js.map": "/static/js/453.a829d25e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.603d9204.css",
+    "static/js/main.08165f6e.js"
+  ]
+}
