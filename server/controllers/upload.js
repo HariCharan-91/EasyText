@@ -64,7 +64,7 @@ const uploadPDF = async (req, res) => {
 }
 
 const getallpdf = async (req, res) => {
-
+    console.log("getpdfcalled")
     try {
         const upload = await Upload.find({})
         res.status(200).json({ upload })
