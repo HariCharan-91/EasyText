@@ -7,7 +7,13 @@ const cors = require('cors')
 // mongodb database
 const connectDB = require('./db/upload')
 // middlewares
-app.use(cors())
+// app.use(cors())
+app.use(cors({
+    origin: '*', // Replace with your allowed origin(s)
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 app.use('/api/image',express.static('uploads/ImageStorage'))
