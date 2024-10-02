@@ -17,11 +17,9 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/repository-name.git
+   git clone https://github.com/HariCharan-91/EasyText.git
 
 https://github.com/user-attachments/assets/17341c3d-10e5-420a-8cf6-7154834e52e8
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
