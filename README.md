@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+# PDF Highlight Extractor
+
+## Overview
+
+This project is a tool that extracts highlighted images and text from PDF documents. It also utilizes Optical Character Recognition (OCR) to extract text from images within the PDFs, making it easier to gather and analyze important information quickly.
+
+## Features
+
+- Extracts highlighted text from PDF documents.
+- Captures highlighted images within PDFs.
+- Utilizes OCR to extract text from images.
+- User-friendly interface for easy operation.
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/repository-name.git
+
 https://github.com/user-attachments/assets/17341c3d-10e5-420a-8cf6-7154834e52e8
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
