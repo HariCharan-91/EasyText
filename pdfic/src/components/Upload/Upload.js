@@ -27,7 +27,7 @@ const Upload = React.forwardRef(({ handler }, ref) => {
     try {
       formData.append("pdf", file)
       const response = await axios.post(
-        "https://easytext.onrender.com/api/upload",
+        "http://localhost:4000/api/upload",
         formData,
         {
           headers: {
