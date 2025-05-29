@@ -1,8 +1,5 @@
 import os
 
-
-
-
 pdf_directory = '../uploads'
 
     # List all files in the directory
